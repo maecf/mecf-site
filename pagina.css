@@ -1,0 +1,10 @@
+.block-inline{
+    height: 400px;
+    width: 100%;
+    background-color: aqua;
+}
+
+.block-line p {
+    display: inline;
+    color: azure;
+}
