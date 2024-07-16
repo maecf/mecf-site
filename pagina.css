@@ -1,10 +1,139 @@
-.block-inline{
-    height: 400px;
-    width: 100%;
-    background-color: aqua;
+/* styles.css */
+
+/* Reset default margin and padding */
+body,
+h1,
+h2,
+h3,
+p,
+ul {
+    margin: 0;
+    padding: 0;
 }
 
-.block-line p {
+/* Global styles */
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color: #f0f0f0;
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 1em 0;
+}
+
+.new {
+    background-color: #fff;
+    padding: 20px;
+}
+
+.new ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.new ul li {
     display: inline;
-    color: azure;
+    margin-right: 10px;
+}
+
+.new ul li a {
+    color: #000;
+    /* Black color for links */
+    text-decoration: none;
+    padding: 10px 15px;
+}
+
+.new ul li a:hover {
+    background-color: #555;
+    color: #fff;
+    /* White text on hover */
+}
+
+nav {
+    display: flex;
+    /* Use flexbox for layout */
+    align-items: center;
+    /* Center items vertically */
+    justify-content: space-between;
+    /* Space items evenly */
+    background-color: #fff;
+    /* White background for navigation */
+    padding: 15px;
+    /* Adjust padding as needed */
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 10px;
+    }
+    
+    nav ul li a {
+        color: #000;
+        /* Black color for links */
+        text-decoration: none;
+        padding: 10px 15px;
+    }
+    
+    nav ul li a:hover {
+        background-color: #555;
+        color: #fff;
+        /* White text on hover */
+    }
+    
+    .logo {
+        max-width: 100px;
+        /* Adjust the size of your logo */
+    }
+    
+    /* Add these styles to your existing styles.css */
+    
+    /* Add these styles to your existing styles.css */
+    
+    /* Add these styles to your existing styles.css */
+    
+    section {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding: 20px;
+        margin: 10px;
+        border-radius: 5px;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        background-color: #fff;
+    }
+    
+    section h1 {
+        font-size: 100px;
+        margin: 0;
+    }
+    
+    section h6 {
+        font-size: 20px;
+        margin: 0;
+    }
+    
+    section p {
+        text-align: center;
+        margin-top: 10px;
+    }
+    
+    footer {
+        text-align: center;
+        padding: 10px;
+        background-color: #333;
+        color: #fff;
+        position: fixed;
+        bottom: 0;
+        width: 100%;
 }
